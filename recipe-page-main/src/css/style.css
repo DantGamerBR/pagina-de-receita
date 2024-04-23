@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1440px;
+    margin: 100px 306px;
+    background-color: var(--cor-branca);
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.apresentacao img {
+    border-radius: 15px;
+}
+
+.apresentacao h1 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 29px 0 16px;
+}
+
+.tempo-preparacao {
+    line-height: 35px;
+    padding: 28px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+.tempo-preparacao h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 2rem;
+}
+
+.tempo-preparacao ul li {
+    padding: 0 0 4px 15px;
+    margin-left: 25px;
+}
+
+.ingredientes {
+    padding:  25px 0 12px 0;
+    border-bottom: var(--linha-borda);
+}
+
+.ingredientes ul {
+    padding: 15px 25px;
+}
+
+.instrucoes {
+    padding: 25px 0 4px 0;
+    border-bottom: var(--linha-borda);
+}
+
+.instrucoes ol {
+    padding: 18px 25px
+}
+
+.nutricao h2 {
+    padding-top: 25px;
+    padding-bottom: 20px; 
+}
+
+.tabela-nutricao {
+    padding: 24px;
+    display: grid;
+    grid-template-rows: repeat(autofit, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nutriente p{
+    padding: 12px 8px;
+}
+
+.nutricao .tabela-nutricao .linha {
+    border-bottom: var(--linha-borda);
+}
+
+.valor-nutriente p{
+    padding: 12px 8px;
+    color: hsl(332, 51%, 32%);
+}

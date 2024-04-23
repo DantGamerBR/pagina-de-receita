@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0;
+    }
+
+    .apresentacao img {
+        border-radius: 0;
+    }
+
+    .apresentacao h1, .apresentacao p, .tempo-preparacao, .ingredientes, .instrucoes, .nutricao {
+        margin: 0 40px;
+    }
+}
